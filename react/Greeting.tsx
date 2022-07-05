@@ -1,11 +1,8 @@
-import React from 'react'
+```ts //react/Countdown.tsx import React from 'react'
 
-type Props = {
-  name: string
-}
+const Greeting = () => { return (Hey, customer!)}
 
-function Greeting({ name }: Props) {
-  return <div>Hey, {name}</div>
-}
+Greeting.schema = { title: 'editor.greeting.title', description: 'editor.greeting.description',
+type: 'object', properties: {}, }
 
-export default Greeting
+export default Greeting ```
